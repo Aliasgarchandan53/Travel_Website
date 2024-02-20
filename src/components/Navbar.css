@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #092635;
+    position:sticky;
+    top:0;
+}
+
+.logo img{ 
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    margin-left:10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    margin:0.5rem;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+}
+
+nav ul li a:hover{
+    background-color: #031118;
+}

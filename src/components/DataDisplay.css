@@ -1,0 +1,13 @@
+.mainData{
+    height:80px;
+    background-color: rgb(166, 237, 237);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-5px;
+    padding:5px;
+}
+
+.element{
+    margin-right:10px;
+}
